@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imsak"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/imsak"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:id="@+id/ngaji"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/jkk"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/doa"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/ngaji"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:id="@+id/kuran"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/kuran"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+#Sat Jul 18 12:07:54 WIB 2020
+base.0=/home/ricky_hr/AndroidStudioProjects/ibadah/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/ricky_hr/AndroidStudioProjects/ibadah/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
